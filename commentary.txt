@@ -1,0 +1,35 @@
+Module: CMP-5013A Architectures and Operatng Systems
+Assignment: Simple cipher in ARMv-7 assesmbly language.
+
+Group members:
+Buzz Embley-Riches 100237137,
+James Burrell 100263300
+
+
+Contributions to the project.
+
+Plan:
+
+We both sat down at the start of the project and set out a plan on what to work on first. We decided to modularise the program as much as possible, we decided 
+on a few major functions that we would need; main method to handle input/output and processing, characterFormatter function to strip the input of invalid 
+characters/convert them to valid characters and spaces, coprimeCheck to make sure the two input keys are valid for our program, stringLength to get the 
+length of any variables or keys that we will need to cycle through and for the coprimeCheck and finally encryptChar and decryptChar, which will be used to 
+perform the actual encryption/decryption of each character. After we had decided on the main functions, we chose to write a program in C to get an outline 
+for our Assembly code.
+
+C code:
+
+Whilst developing our program in C, we took a pilot, co-pilot development method, switching regularly between each other throughout this stage of the project. 
+One of us would be typing the code whilst the other gave input and helped with problem solving, error checking and finding the most efficient way of developing 
+each function, then we would switch roles. After we had finished our C code, we had an outline and starting point for our Assembly code version of the program.
+
+Assembly code:
+
+For our Assembly code version of the program, we took the same approach as we did with our C code, a pilot, co-pilot development method. This method worked extremely 
+well with the assembly code development as it was easier to make notes on the lower level language such as register assignment and error checking.
+
+
+Summary:
+
+We both worked even amounts on the project, using a pilot, co-pilot development method, aiding each other in every stage.
+
